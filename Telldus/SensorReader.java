@@ -40,7 +40,6 @@ public class SensorReader {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		if(args.length < 4 || (args.length > 4 && args.length < 9) ) {
 			System.out.println("SensorReader is used to retrieve sensor data from Telldus Live! and then upload it to a ftp server");
